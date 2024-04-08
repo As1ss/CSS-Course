@@ -163,3 +163,51 @@ tr:hover {
 }
 
 
+
+
+span {
+     display: block;
+     /* display: none;  no mantiene el espacio de los elementos y no los muestra*/
+     /* visibility: hidden;  mantiene el espacio de los elementos pero no los muestra*/
+    /* width: 300px; */
+    max-width: 300px;
+    background-color: cadetblue;
+    }
+
+
+div.inline {
+    display: inline;
+}
+
+#position {
+    /* position:relative; */
+    /* top: 25px; */
+    /* position: fixed; */
+    /* position: absolute; */
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left {
+   float: left;
+   background-color: #F00;
+}
+
+.container {
+    height: 100px;
+}
+
+.right {
+   float: right;
+   background-color: blue;
+   color: white;
+}
+
+.center {
+    text-align: center;
+    background-color: coral;
+    margin: 0 auto;
+    width: 200px;
+   
+}
