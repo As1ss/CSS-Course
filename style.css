@@ -1,6 +1,6 @@
 
 #titulo{
-    color: blue;
+    color: chartreuse;
     font-weight: bold;
 }
 
@@ -26,8 +26,29 @@ div h2, div h3{
     font-size: 24px;
     color: black;
 }
-
 /* Esto es un comentario */
+
 /*
 Esto es un comentario de múltimples líneas
 */
+
+/* Propiedad color con valor hexadecimal de 3 caracteres
+
+.color { color: #CCC;
+}
+
+*/
+
+/* Propiedad color con valor hexadecimal de 6 caracteres 
+
+.color {
+    color: #CCCCCC;
+}
+
+*/
+
+.color {
+    color: rgb(0, 255, 255);
+}
+
+
