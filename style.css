@@ -24,7 +24,7 @@ div h2, div h3{
 
 * {
     font-size: 24px;
-    color: black;
+    /* color: black; */
 }
 /* Esto es un comentario */
 
@@ -87,10 +87,79 @@ Esto es un comentario de múltimples líneas
     /* background-repeat: repeat-y; */
     /* background-position: 120px;  */
 
+
+    /* Se puede realizar varias propiedades sobre background*/
     background: #F00 url("bgTest.jpg") repeat-y center bottom / 100px 100px;
     
 }
 
+.margen {
+    background-color: orange;
+    margin: 15px;
+    padding: 30px 25px 20px;
+    border: 1px solid black;
+    height: 150px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
 
+.text {
+    font-family:"Bungee Spice",Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-decoration: underline;
+    text-shadow: 3px 2px 5px gray;
+}
+
+a:link {
+ color: #F00;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: aqua;
+}
+
+ul {
+    background-color: cyan;
+    list-style-position: outside;
+    list-style-type: circle;
+    /* padding-left: 0px; */
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: thistle;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(odd){
+    background-color: bisque;
+}
+
+
+tr:hover {
+    background-color: navy;
+    color:white;
+    cursor: pointer;
+}
 
 
