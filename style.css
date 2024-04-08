@@ -47,8 +47,50 @@ Esto es un comentario de múltimples líneas
 
 */
 
+/* Propiedad color con valor RGB */
 .color {
     color: rgb(0, 255, 255);
 }
+
+
+
+.border {
+    /* border: 5px outset red; */
+    /*
+    Estilos de bordes predefinidos
+
+        solid
+        dotted
+        dashed
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+        hidden
+    */
+    border-style: solid;
+    border-color: purple;
+    border-radius: 5px;
+    border-width: 3px;
+
+}
+
+#fondo * {
+    color: white;
+    /* background-color: rgba(255, 0, 0);  */
+   /* opacity: 0.3; */
+    /* background-image: url(bgTest.jpg); */
+    /* background-size: 100px 100px; */
+    height: 200px;
+    /* background-repeat: repeat-y; */
+    /* background-position: 120px;  */
+
+    background: #F00 url("bgTest.jpg") repeat-y center bottom / 100px 100px;
+    
+}
+
+
 
 
