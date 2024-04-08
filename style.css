@@ -1,0 +1,33 @@
+
+#titulo{
+    color: blue;
+    font-weight: bold;
+}
+
+
+p.texto{
+    color: burlywood;
+    font-style: italic;
+}
+
+p.especial{
+    color: mediumseagreen;
+}
+
+div p {
+    color: aqua;
+}
+
+div h2, div h3{
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    color: black;
+}
+
+/* Esto es un comentario */
+/*
+Esto es un comentario de múltimples líneas
+*/
