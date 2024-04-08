@@ -1,0 +1,71 @@
+html {
+    background-color: #efefef;
+    font-family: "Montserrat";
+}
+
+body{
+    margin: 0;
+}
+
+header, footer {
+    background-color: darkslategrey;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+   
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+article {
+    background-color: white;
+    border-radius: 10px;
+    
+
+}
+
+section article h2, section article p{
+    padding: 10px 10px 0px 10px;
+    text-align: left;
+}
+
+section article p {
+    padding-bottom: 10px;
+    
+}
+
+article:hover {
+    box-shadow: 20px 0 30px;
+    cursor: pointer;
+}
+
+img {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+}
+
+
+
+.contactContainer{
+    float: inline-end;
+}
+
+.emailContact {
+    padding-right: 10px;
+}
+
+footer p, footer a {
+   margin :0;
+   padding-left: 10px;
+}
